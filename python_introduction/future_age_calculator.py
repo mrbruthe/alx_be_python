@@ -1,8 +1,8 @@
 # This script calculates the future age of a person
 
+current_age = int(input("How old are you?: "))
 current_year = 2023
 future_year = 2050
-current_age = int(input("Enter your current age: "))
 year_difference = future_year - current_year
 
 future_age = current_age + year_difference
