@@ -28,4 +28,5 @@ def division(num1, num2):
     """Returns the quotient of the two numbers. Raises ValueError on division by zero."""
     if num2 == 0:
         raise ValueError("Cannot divide by zero.")
-    return num1 / num2
+    elif num2!=0:
+        return num1 / num2
