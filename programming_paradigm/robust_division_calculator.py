@@ -10,7 +10,7 @@ def safe_divide(numerator, denominator):
         num = float(numerator)
         denom = float(denominator)
     except ValueError:
-        return "Error: Please enter numeric values only"
+        return "Error: Please enter numeric values only."
 
     try:
         result = num / denom
