@@ -10,10 +10,10 @@ def safe_divide(numerator, denominator):
         num = float(numerator)
         denom = float(denominator)
     except ValueError:
-        return "Error: Non-numeric input."
+        return "Error: Please enter numeric values only"
 
     try:
         result = num / denom
         return result
     except ZeroDivisionError:
-        return "Error: Division by zero."
+        return "Error: Cannot divide by zero."
